@@ -33,10 +33,10 @@ class DashboardForm extends React.Component {
       authenticity_token: this.props.authenticity_token
     })
     .then(function (response) {
-      toastr.success("Message sent to Playven! Thank you!");
+      toastr.success("Message sent to mywebsite! Thank you!");
     })
     .catch(function (error) {
-      toastr.error("Message send failed, please contact developer@playven.com \n " + error);
+      toastr.error("Message send failed, please contact developer@mywebsite.com \n " + error);
       console.log(error);
     });
   }
