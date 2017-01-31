@@ -19,13 +19,13 @@ This is Style Guide. It was inspired by [Airbnb's guide](https://github.com/airb
   1. [Line Length](#line-length)
   1. [API Documentation](#api-documentation)
 
-  
+
 
 ## Pull Requests
 
 **What a Pull Request should include?**
 
-A pull request at Playven should always include the following:
+A pull request at mywebsite should always include the following:
 * Descriptive title of the fix or feature.
 * Necessary information in the Pull Request description.
  * [ticket_link] to the related issue in the project management system.
