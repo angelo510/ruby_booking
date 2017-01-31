@@ -6,7 +6,7 @@ class ConfirmationMailer < Devise::Mailer
   def confirmation_instructions(record, token, opts = {}, venue = nil)
     if venue.present?
       @venue = venue
-      opts[:subject] = "#{@venue.venue_name} on luonut sinulle tilin Playveniin"
+      opts[:subject] = "#{@venue.venue_name} on luonut sinulle tilin mywebsiteiin"
     end
     super(record, token, opts)
   end
