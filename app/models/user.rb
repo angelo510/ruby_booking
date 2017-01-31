@@ -58,7 +58,7 @@ class User < ActiveRecord::Base
   def add_stripe_id(token)
     customer = Stripe::Customer.create(
       source: token,
-      description: "Playven User"
+      description: "mywebsite User"
     )
     self.update(stripe_id: customer.id)
   end
