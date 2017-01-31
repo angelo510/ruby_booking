@@ -30,7 +30,7 @@ FactoryGirl.define do
   end
 
   sequence :email do |n|
-    "play_#{n}@playven.com"
+    "play_#{n}@mywebsite.com"
   end
 
   sequence :first_name do |n|

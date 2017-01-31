@@ -148,7 +148,7 @@ describe MembershipsController, type: :controller do
         it "should send confirmation mail" do
           expect(ActionMailer::Base.deliveries.count).to eq(1)
           expect(ActionMailer::Base.deliveries.first.to).to include(user[:email])
-          expect(ActionMailer::Base.deliveries.first.from).to include("no-reply@playven.com")
+          expect(ActionMailer::Base.deliveries.first.from).to include("no-reply@mywebsite.com")
         end
 
         it_behaves_like "set_venue"

@@ -286,7 +286,7 @@ describe EmailListsController do
         to_users: other_users.map(&:email).join(','),
         from: "test-no-reply@test.test",
         subject: "test subject",
-        body: "Hi\n\n This is test email. \n\nBr,\n Playven",
+        body: "Hi\n\n This is test email. \n\nBr,\n mywebsite",
         send_copy: true
       }
     }
