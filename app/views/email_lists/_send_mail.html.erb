@@ -5,7 +5,7 @@
       <label for="email_from_select"><%= t '.from' %></label>
       <select name="custom_mail[from]" class="form-control" id="email_from_select" onchange="setEmailFromField()">
         <option value="<%= current_admin.email %>"><%= current_admin.email %></option>
-        <option value="<%= 'no-reply@playven.com' %>"><%= "no-reply@playven.com" %></option>
+        <option value="<%= 'no-reply@mywebsite.com' %>"><%= "no-reply@mywebsite.com" %></option>
         <option value="<%= 'other' %>"><%= t '.other_email' %></option>
       </select>
       <input type="email" name="custom_mail[from]" class="form-control hidden m-t-sm" id="email_from_text" placeholder="<%= t '.from' %>" disabled=true />
