@@ -1,7 +1,7 @@
 <nav class="navbar-default navbar-static-side" role="navigation">
   <div class="sidebar-collapse">
     <%= link_to can?(:read, Company) ? company_path(current_admin.company) : venue_view_path(current_admin.company.venues.first) do  %>
-      <img src="<%= image_url 'amperlogowhite.png' %>" width="80%" id="logo" alt="Playven">
+      <img src="<%= image_url 'amperlogowhite.png' %>" width="80%" id="logo" alt="mywebsite">
     <% end %>
     <ul class="nav metismenu" id="side-menu">
       <li class="nav-header">
