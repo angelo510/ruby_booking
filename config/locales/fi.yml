@@ -375,8 +375,8 @@ fi:
       month: Kuukausi
       monthly: Kuukausittainen
       notifications_msg: Sinulla on ${msgs} viestiä ja %{notifications} ilmoitusta.
-      popup_msg: Playven Dashboard
-      popup_welcome: Playven Dashboard
+      popup_msg: mywebsite Dashboard
+      popup_welcome: mywebsite Dashboard
       reservations_title: Varaukset
       revenue_title: Tuotot
       total: Yhteensä
@@ -530,7 +530,7 @@ fi:
       send_instructions: Saat muutaman minuutin päästä sähköpostin, jossa on vahvistusohjeet.
       send_paranoid_instructions: Jos sähköpostiosoitteesi on tietokannassamme, saat muutaman minuutin päästä sähköpostin, jossa on vahvistusohjeet.
       show:
-        header: Tervetuloa Playveniin! Luo uusi salasana turvataksesi tilisi
+        header: Tervetuloa mywebsiteiin! Luo uusi salasana turvataksesi tilisi
         submit_button: Luo salasana
     failure:
       already_authenticated: Olet jo kirjautunut sisään.
@@ -881,7 +881,7 @@ fi:
     send_invoices:
       email_invoices_link: Sähköpostilaskut
       mail_link: Postita laskut
-      notification_link: Lähetä Playven-ilmoitus
+      notification_link: Lähetä mywebsite-ilmoitus
       paid_link: Maksetut laskut
       search_placeholder: Etsi taulukosta
       table_head_action: Toimenpide
@@ -989,14 +989,14 @@ fi:
       header_lead: Löydä vapaat kentät läheltäsi ja varaa helposti
       help: Tuki
       join_button: Rekisteröidy käyttäjäksi
-      join_content: Tervetuloa mukaan Playveniin! Playvenin avulla voit etsiä yhdellä haulla vapaita vuoroja samanaikaisesti kaikista mukana olevista urheilukeskuksista. Valitset vain lajisi ja haluamasi peliajan ja yhden klikkauksen jälkeen näet kaikki lähialueesi urheilupaikat mistä löytyy vapaita vuoroja sekä niiden hinnat. Rekisteröidy käyttäjäksi ja voit aloittaa käytön heti. Ilman rekisteröitymistä voi selata vapaita aikoja. Varaaminen edellyttää rekisteröitymistä.
-      join_header: PLAYVEN ON UUSI TAPA LÖYTÄÄ LÄHIALUEESI VAPAAT URHEILUVUOROT JA TEHDÄ VARAUS HELPOSTI JA NOPEASTI.
+      join_content: Tervetuloa mukaan mywebsiteiin! mywebsitein avulla voit etsiä yhdellä haulla vapaita vuoroja samanaikaisesti kaikista mukana olevista urheilukeskuksista. Valitset vain lajisi ja haluamasi peliajan ja yhden klikkauksen jälkeen näet kaikki lähialueesi urheilupaikat mistä löytyy vapaita vuoroja sekä niiden hinnat. Rekisteröidy käyttäjäksi ja voit aloittaa käytön heti. Ilman rekisteröitymistä voi selata vapaita aikoja. Varaaminen edellyttää rekisteröitymistä.
+      join_header: mywebsite ON UUSI TAPA LÖYTÄÄ LÄHIALUEESI VAPAAT URHEILUVUOROT JA TEHDÄ VARAUS HELPOSTI JA NOPEASTI.
       login_html: Kirjaudu&nbsp;sisään
       logout: Kirjaudu ulos
       signup_html: Rekisteröidy
       sport: tennis
       venues_list: Keskuksia pääkaupunkiseudulla
-      get_playven: Myynti
+      get_mywebsite: Myynti
     search_form:
       duration: 60 minuuttia
       find_venue: Etsi aikoja
@@ -1145,7 +1145,7 @@ fi:
       login_html: Kirjaudu sisään
       logout: Kirjaudu ulos
       signup_html: Rekisteröidy
-      get_playven: Myynti
+      get_mywebsite: Myynti
     not_logged_modal:
       login: Kirjaudu sisään
       modal_text: Sinun pitää olla kirjautunut sisään tehdäksesi varauksen
