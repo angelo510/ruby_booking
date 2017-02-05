@@ -426,8 +426,8 @@ en:
       month: Month
       monthly: Monthly
       notifications_msg: You have ${msgs} messages and %{notifications} notifications.
-      popup_msg: Playven Dashboard
-      popup_welcome: Playven Dashboard
+      popup_msg: mywebsite Dashboard
+      popup_welcome: mywebsite Dashboard
       reservations_title: Reservations
       revenue_title: Revenue
       total: Total
@@ -597,7 +597,7 @@ en:
       send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes.
       send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.
       show:
-        header: Welcome to Playven! Create a new password to secure your account
+        header: Welcome to mywebsite! Create a new password to secure your account
         submit_button: Create Password
     failure:
       already_authenticated: You are already signed in.
@@ -950,7 +950,7 @@ en:
     send_invoices:
       email_invoices_link: Email Invoices
       mail_link: Mail Invoices
-      notification_link: Send Playven Notification
+      notification_link: Send mywebsite Notification
       paid_link: Paid Invoices
       search_placeholder: Search in table
       table_head_action: Action
@@ -1057,15 +1057,15 @@ en:
       header: Your sports companion
       header_lead: Begin exploring sport venues in your city and meet new sport enthusiasts
       help: Help
-      join_button: Join Playven
-      join_content: Playven is in pilot-phase and we have launched the service first with Kalastajatorpan Tennisklubi, Aktia-Tennishalli and Martinmäen Tenniskeskus. More venues are joining all the time. You can help us get new venues to join Playven by telling them about us.
+      join_button: Join mywebsite
+      join_content: mywebsite is in pilot-phase and we have launched the service first with Kalastajatorpan Tennisklubi, Aktia-Tennishalli and Martinmäen Tenniskeskus. More venues are joining all the time. You can help us get new venues to join mywebsite by telling them about us.
       join_header: Opening up more opportunities to be active and athletic
       login_html: Log&nbsp;In
       logout: Logout
       signup_html: Sign&nbsp;Up
       sport: tennis
       venues_list: Venues in Helsinki
-      get_playven: Sales
+      get_mywebsite: Sales
     search_form:
       duration: 60 minutes
       find_venue: Find a venue
@@ -1223,7 +1223,7 @@ en:
       login_html: Log&nbsp;In
       logout: Logout
       signup_html: Sign&nbsp;Up
-      get_playven: Sales
+      get_mywebsite: Sales
     not_logged_modal:
       login: log in
       modal_text: You have to be logged in to make a reservation.
