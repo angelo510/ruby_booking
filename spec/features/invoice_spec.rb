@@ -78,7 +78,12 @@ feature "invoices", js: true do
         expect(Invoice.first.reservations.map(&:price).sort).to eq [3.0, 9.0].sort
       end
 
-      
+      it 'should set right amount for payment in the invoice' do
+        Invoice.first.invoice_components.each do |invoice_component|
+          reservation = invoice_component.reservation
+          expect(invoice_component.price).to eq reservation.outstanding_balance
+        end
+      end
     end
 
     context 'selected user does not have unpaid reservations for selected time' do
@@ -102,7 +107,8 @@ feature "invoices", js: true do
       create :reservation, user: user1, price: 20.0, court: court2, start_time: start_time,
                                         amount_paid: 7, payment_type: :semi_paid
 
-      
+      visit company_invoices_path(company)
+      click_link I18n.t('invoices.index.create_invoices')
       fill_in "start_date", with: (start_time).to_s(:date)
       fill_in "end_date", with: (start_time + 1.days).to_s(:date)
       find("input[type='checkbox'][name='user_ids[]'][value='#{user1.id}']").click
