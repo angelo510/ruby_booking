@@ -12,30 +12,7 @@ feature "feature helpers", js: true do
     end
   end
 
-  describe "#in_browser" do
-    let!(:user1) { create(:user) }
-    let!(:user2) { create(:user) }
-
-    it 'should sign in as different users in dfferent sessions' do
-      in_browser(:one) do
-        sign_in_as(user1)
-      end
-
-      in_browser(:two) do
-        sign_in_as(user2)
-      end
-
-      in_browser(:one) do
-        expect(page.status_code).to eq 200
-        expect(find("#main-landing-navbar")).to have_content(user1.first_name)
-      end
-
-      in_browser(:two) do
-        expect(page.status_code).to eq 200
-        expect(find("#main-landing-navbar")).to have_content(user2.first_name)
-      end
-    end
-  end
+  
 
   describe "#search_datetime" do
     let!(:time) { 2.days.since.at_noon }
