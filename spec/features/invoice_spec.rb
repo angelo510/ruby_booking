@@ -103,6 +103,8 @@ feature "invoices", js: true do
                                         amount_paid: 7, payment_type: :semi_paid
 
       
+      fill_in "start_date", with: (start_time).to_s(:date)
+      fill_in "end_date", with: (start_time + 1.days).to_s(:date)
       find("input[type='checkbox'][name='user_ids[]'][value='#{user1.id}']").click
       click_button I18n.t('invoices.create_invoices.submit_button')
       click_link I18n.t('invoices.invoice_list.drafts')
