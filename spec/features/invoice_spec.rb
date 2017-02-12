@@ -78,12 +78,7 @@ feature "invoices", js: true do
         expect(Invoice.first.reservations.map(&:price).sort).to eq [3.0, 9.0].sort
       end
 
-      it 'should set right amount for payment in the invoice' do
-        Invoice.first.invoice_components.each do |invoice_component|
-          reservation = invoice_component.reservation
-          expect(invoice_component.price).to eq reservation.outstanding_balance
-        end
-      end
+      
     end
 
     context 'selected user does not have unpaid reservations for selected time' do
