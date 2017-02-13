@@ -53,6 +53,7 @@ gem 'iban-tools'
 gem 'henkilotunnus'
 
 gem 'cancancan'
+gem 'activemerchant'
 
 gem 'remotipart'
 gem 'byebug'

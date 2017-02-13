@@ -96,7 +96,18 @@ Rails.application.configure do
     :url =>':s3_domain_url',
     :path => '/:class/:attachment/:id_partition/:style/:filename'
   }
+# Log the query plan for queries taking more than this (works
+  # with SQLite, MySQL, and PostgreSQL)
+  # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
+  # config.after_initialize do
+  #   ActiveMerchant::Billing::Base.mode = :production
+  #   ::GATEWAY = ActiveMerchant::Billing::PaypalGateway.new(
+  #     :login    => ENV['AUTHORIZE_LOGIN_ID'],
+  #     :password => ENV['AUTHORIZE_TRANSACTION_KEY'],
+  #     :test     => false
+  #   )
+  # end
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     :user_name => ENV['SENDGRID_USERNAME'],
@@ -107,4 +118,5 @@ Rails.application.configure do
     :authentication => :plain,
     :enable_starttls_auto => true
   }
+
 end
