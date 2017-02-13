@@ -3025,4 +3025,78 @@ N+1 Query method call stack
 /Volumes/Source/GitRepository/amperbooking/app/views/api/reservations/index.json.jbuilder:4:in `_app_views_api_reservations_index_json_jbuilder___604321386318611514_70174529350200'
 /Volumes/Source/GitRepository/amperbooking/bin/rails:9:in `require'
 /Volumes/Source/GitRepository/amperbooking/bin/rails:9:in `<top (required)>'
-/Volumes/Source/GitRepository/amperbooking/bin/spring:13:in `<top (required)>'
+/Volumes/Source/GitRepository/amperbooking/bin/spring:13:in `<top (required)>'2017-02-13 02:33:23[WARN] user: Angelo
+GET /api/sort_by_sport.json/?sport=tennis
+N+1 Query detected
+  Venue => [:prices]
+  Add to your finder: :includes => [:prices]
+N+1 Query method call stack
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'
+
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'2017-02-13 02:35:04[WARN] user: Angelo
+GET /api/sort_by_sport.json/?sport=tennis
+N+1 Query detected
+  Venue => [:prices]
+  Add to your finder: :includes => [:prices]
+N+1 Query method call stack
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'
+
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'2017-02-13 02:37:35[WARN] user: Angelo
+GET /api/sort_by_sport.json/?sport=tennis
+N+1 Query detected
+  Venue => [:prices]
+  Add to your finder: :includes => [:prices]
+N+1 Query method call stack
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+  /Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'
+
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:10:in `block in _app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/app/views/api/venues/sort_by_sport.json.jbuilder:1:in `_app_views_api_venues_sort_by_sport_json_jbuilder__2074731103537421880_70254775185940'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'2017-02-13 02:37:55[WARN] user: Angelo
+POST /venues/35/available
+Unused Eager Loading detected
+  User => [:discounts]
+  Remove from your finder: :includes => [:discounts]
+
+
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'2017-02-13 02:38:06[WARN] user: Angelo
+POST /venues/35/available
+Unused Eager Loading detected
+  User => [:discounts]
+  Remove from your finder: :includes => [:discounts]
+
+
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/rails:9:in `<top (required)>'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `require'
+/Volumes/Source/GitRepository/Ruby_On_Rails_Development/bin/spring:13:in `<top (required)>'
