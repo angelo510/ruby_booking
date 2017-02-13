@@ -11,10 +11,10 @@ default: &default
 
 development:
   <<: *default
-  database: booking_development
+  database: Angelo
   encoding: unicode
   pool: 5
-  username: jesseheikkila
+  username: Angelo
   password:
 
 # Warning: The database defined as "test" will be erased and
@@ -22,10 +22,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: booking_test
-  encoding: unicode
+  database: Angelo
+  encoding: unicode 
   pool: 5
-  username: jesseheikkila
+  username: Angelo
   password:
 
 production:
