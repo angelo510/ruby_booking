@@ -26,7 +26,12 @@
             <%= I18n.t('discounts.shared.percentage')%>
           </label>
         </div>
-        
+        <div class='col-md-6'>
+          <label>
+            <input type="radio" name="discount[method]" value="fixed" <%= discount.object.percentage? ? '':'checked'%>></input>
+            <%= I18n.t('discounts.shared.fixed')%>
+          </label>
+        </div>
       </div>
     </div>
   </div>
