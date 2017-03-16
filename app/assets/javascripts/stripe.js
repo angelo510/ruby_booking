@@ -4,7 +4,7 @@ $(function () {
     var handler = StripeCheckout.configure({
       key: $stripeBtn.data('stripe-key'),
       locale: $stripeBtn.data('stripe-locale'),
-      name: 'mywebsite',
+      name: 'Playven',
       token: sendStripeToken,
       panelLabel: 'Add card',
       email: window.currentUserEmail,
