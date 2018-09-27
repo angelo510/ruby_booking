@@ -33,7 +33,7 @@ A pull request at mywebsite should always include the following:
 * Code required by the feature
 * Tests covering the feature on a necessary level *(a spacing issue PR etc. do not require tests)*
 * Necessary commenting on the feature, see [Commenting](#commenting) for more information
-* A Pull Request including changes to the API or new content to it should always include edits to [API documentation](https://github.com/Ampersports/amperbooking/blob/master/API.md)
+* A Pull Request including changes to the API or new content to it should always include edits to [API documentation](https://github.com/angelo510/ruby_booking/blob/master/API.md)
 
 ### Commit template:
 ```
@@ -581,4 +581,4 @@ end
 
 # API Documentation
 
-Our API Documentation is located [here](https://github.com/Ampersports/amperbooking/blob/master/API.md).
+Our API Documentation is located [here](https://github.com/angelo510/ruby_booking/blob/master/API.md).
